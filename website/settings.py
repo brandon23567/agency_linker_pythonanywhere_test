@@ -1,6 +1,6 @@
 from pathlib import Path
 import cloudinary
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -45,10 +45,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# CACHE_MIDDLEWARE_ALIAS = 'default'
-# CACHE_MIDDLEWARE_SECONDS = '600'
-# CACHE_MIDDLEWARE_KEY_PREFIX = '' 
-
 ROOT_URLCONF = 'website.urls'
 
 TEMPLATES = [
@@ -74,7 +70,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
-        'USER': 'postgres.qifldbhxqaejhadeariw',
+        'USER': 'postgres.keoxynagvmdkixmicrnc',
         'PASSWORD': 'StrongestAvenger#23',
         'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',
         'PORT': '6543',
@@ -126,15 +122,15 @@ REST_FRAMEWORK = {
 }
 
 cloudinary.config(
-    cloud_name = 'dhx2dmixw',
-    api_key = '614824225846826',
-    api_secret = 'CvsCR4K1VNfyl342lLxVx5AlmSI'
+    cloud_name = 'dwiczna6y',
+    api_key = '963442133923243',
+    api_secret = 'Ny3r1sWRW35J9lf1d6xnN8az-H4'
 )
 
 CLOUDINARY_STORAGE = {
-    "CLOUD_NAME": "dhx2dmixw",
-    "API_KEY": "614824225846826",
-    "API_SECRET": "CvsCR4K1VNfyl342lLxVx5AlmSI"
+    "CLOUD_NAME": "dwiczna6y",
+    "API_KEY": "963442133923243",
+    "API_SECRET": "Ny3r1sWRW35J9lf1d6xnN8az-H4"
 }
 
 CORS_ALLOW_CREDENTIALS = True
