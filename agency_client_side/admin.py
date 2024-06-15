@@ -1,0 +1,8 @@
+from django.contrib import admin
+from .models import JoinAgencyTeamAsClient, CreateNewClientRequest, CreateNewClientTaskClientSide, CreateNewClientFolderClientSide, CreateNewClientFileClientSide
+
+admin.site.register(JoinAgencyTeamAsClient)
+admin.site.register(CreateNewClientRequest)
+admin.site.register(CreateNewClientTaskClientSide)
+admin.site.register(CreateNewClientFileClientSide)
+admin.site.register(CreateNewClientFolderClientSide)
